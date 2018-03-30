@@ -4,4 +4,5 @@ SUBDIRS += \
     XMLParser \
     myEmailTools \
     RegExp \
-    TestRegExp
+    TestRegExp \
+    TextBorwserSelector
