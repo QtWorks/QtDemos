@@ -7,4 +7,5 @@ SUBDIRS += \
     TestRegExp \
     FunctionPointer \
     LifeManager \
-    windowflags
+    windowflags \
+    TextBorwserSelector
