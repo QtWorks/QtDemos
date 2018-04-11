@@ -50,6 +50,7 @@ void QuestionContainer::on_pushButtonOK_clicked()
     for (QuestionItemWidget *pwgt : m_widgetlist) {
         allright &= pwgt->isAnswerRight();
     }
-    if (allright)
-        qApp->exit();
+    if (allright){
+        close();
+    }
 }

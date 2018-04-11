@@ -29,6 +29,7 @@ void appAutoRun(bool bAutoRun)
 int main(int argc, char *argv[])
 {
     Application a(argc, argv);
+    a.setQuitOnLastWindowClosed(false);
 
     appAutoRun(true);
 
