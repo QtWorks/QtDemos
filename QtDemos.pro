@@ -4,4 +4,7 @@ SUBDIRS += \
     XMLParser \
     myEmailTools \
     RegExp \
-    TestRegExp
+    TestRegExp \
+    FunctionPointer \
+    LifeManager \
+    windowflags
