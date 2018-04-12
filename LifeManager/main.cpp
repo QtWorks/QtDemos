@@ -6,6 +6,7 @@
 #include "controllerwindow.h"
 #include "questioncontainer.h"
 #include "application.h"
+#include "timechecker.h"
 
 void appAutoRun(bool bAutoRun)
 {
@@ -44,6 +45,12 @@ int main(int argc, char *argv[])
     testwgt.initQuestionList();
     testwgt.setWindowFlags(Qt::Window | Qt::FramelessWindowHint | Qt::WindowStaysOnTopHint);
     testwgt.showFullScreen();
+
+    TimeChecker tm;
+    QObject::connect(&tm, &TimeChecker::showQuestions,
+                     &testwgt, &QuestionContainer::showQuestions);
+    tm.startCheck();
+    normal.hide();
 
     return a.exec();
 }

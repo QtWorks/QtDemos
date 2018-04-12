@@ -24,3 +24,8 @@ bool QuestionItemWidget::isAnswerRight()
     string str = ui->textEditAnswer->toPlainText().toStdString();
     return str == m_answer;
 }
+
+void QuestionItemWidget::clearAnswer()
+{
+    ui->textEditAnswer->clear();
+}

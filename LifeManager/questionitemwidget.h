@@ -19,6 +19,7 @@ public:
 
     void initQuestion(const string &question, const string &answer);
     bool isAnswerRight();
+    void clearAnswer();
 
 private:
     Ui::QuestionItemWidget *ui;

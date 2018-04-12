@@ -33,7 +33,8 @@ SOURCES += \
     previewwindow.cpp \
     questionitemwidget.cpp \
     questioncontainer.cpp \
-    application.cpp
+    application.cpp \
+    timechecker.cpp
 
 HEADERS += \
         mainwindow.h \
@@ -42,7 +43,8 @@ HEADERS += \
     previewwindow.h \
     questionitemwidget.h \
     questioncontainer.h \
-    application.h
+    application.h \
+    timechecker.h
 
 FORMS += \
         mainwindow.ui \

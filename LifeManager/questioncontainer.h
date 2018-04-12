@@ -18,6 +18,9 @@ public:
 
     void initQuestionList();
 
+public slots:
+    void showQuestions();
+
 protected:
     void closeEvent(QCloseEvent *ev) override;
 

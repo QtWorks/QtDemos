@@ -34,6 +34,14 @@ void QuestionContainer::initQuestionList()
     }
 }
 
+void QuestionContainer::showQuestions()
+{
+    showFullScreen();
+    for (QuestionItemWidget *pwgt : m_widgetlist) {
+        pwgt->clearAnswer();
+    }
+}
+
 void QuestionContainer::closeEvent(QCloseEvent *ev)
 {
     ev->ignore();
@@ -51,6 +59,6 @@ void QuestionContainer::on_pushButtonOK_clicked()
         allright &= pwgt->isAnswerRight();
     }
     if (allright){
-        close();
+        hide();
     }
 }
