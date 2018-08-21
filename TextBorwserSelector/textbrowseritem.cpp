@@ -6,7 +6,7 @@
 TextBrowserItem::TextBrowserItem(QWidget *pwgt)
     : QTextBrowser(pwgt)
 {
-
+    setStyleSheet("QTextBrowser { selection-background-color: #b2d7ff; }");
 }
 
 void TextBrowserItem::selectByPos(const QPoint &from, const QPoint &to)

@@ -1,8 +1,7 @@
 QT -= gui
-QT += xml
 
-CONFIG += c++11
-CONFIG -= app_bundle console
+CONFIG += c++11 console
+CONFIG -= app_bundle
 
 # The following define makes your compiler emit warnings if you use
 # any feature of Qt which as been marked deprecated (the exact warnings

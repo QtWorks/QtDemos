@@ -5,4 +5,13 @@ SUBDIRS += \
     myEmailTools \
     RegExp \
     TestRegExp \
-    TextBorwserSelector
+    TextBorwserSelector \
+    MouseAreaDemo \
+    SplitterSize \
+    PureCPP \
+    WebsocketChatClient \
+    ShareMessage \
+    JsonDemo \
+    ScreenAndWindowSelector \
+    IrregularWidget \
+    AudioOut
