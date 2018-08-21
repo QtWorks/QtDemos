@@ -5,7 +5,6 @@ SUBDIRS += \
     myEmailTools \
     RegExp \
     TestRegExp \
-    TextBorwserSelector \
     MouseAreaDemo \
     SplitterSize \
     PureCPP \
@@ -14,4 +13,8 @@ SUBDIRS += \
     JsonDemo \
     ScreenAndWindowSelector \
     IrregularWidget \
-    AudioOut
+    AudioOut \
+    FunctionPointer \
+    LifeManager \
+    windowflags \
+    TextBorwserSelector
