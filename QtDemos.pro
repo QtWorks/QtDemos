@@ -17,4 +17,8 @@ SUBDIRS += \
     FunctionPointer \
     LifeManager \
     windowflags \
-    TextBorwserSelector
+    TextBorwserSelector \
+    TranslucentBackground \
+    StyleSheet \
+    Log \
+    TrayIcon
