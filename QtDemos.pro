@@ -21,4 +21,6 @@ SUBDIRS += \
     TranslucentBackground \
     StyleSheet \
     Log \
-    TrayIcon
+    TrayIcon \
+    QtAVDemos \
+    MutexTest
