@@ -23,4 +23,5 @@ SUBDIRS += \
     Log \
     TrayIcon \
     QtAVDemos \
-    MutexTest
+    MutexTest \
+    MacWindowStyle
